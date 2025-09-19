@@ -5,8 +5,10 @@ public class Factorial {
         for(int i = 1 ; i <= n ; i++ ) f = f * i;
         return f;
     }
+
+    
     public static void main(String[] args) {
-        System.out.println(facto(4));
+        System.out.println(facto(5));
     }
     
 }
